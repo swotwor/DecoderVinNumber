@@ -1,8 +1,6 @@
+import VIN from './reducer.js';
 import { configureStore } from '@reduxjs/toolkit';
-import VIN from './reducer.js'
 
 export const store = configureStore({
-  reducer: {
-    VIN
-  },
+  reducer: { VIN }
 })
