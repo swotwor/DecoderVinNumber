@@ -1,0 +1,26 @@
+.variableItem {
+    &_itemTitle {
+        display: inline-block;
+        font-size: 24px;
+        font-weight: 800;
+    }
+    
+    &_itemInfo {
+        font-size: 24px;
+        font-weight: 400;
+        white-space: normal;
+        display: block;
+    }
+
+    &_infoIcon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../../../assets/info.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 5px;
+        vertical-align: middle;
+    }
+}
